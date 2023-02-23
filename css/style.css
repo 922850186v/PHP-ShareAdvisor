@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: 'Trebuchet MS';
+    color: rgb(2, 13, 66);
+    background:  linear-gradient(90deg,rgb(234, 255, 230), rgba(38, 151, 204, 0.933));
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-page{
+    
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    margin: 20% 0 0 0;
+    border: black thick;
+}
+.main-page a{
+    text-decoration: none;
+    background-color: #f2dede;
+    border:2px black solid;
+    border-radius: 10px;
+    color: darkcyan;
+    padding: 1%;
+    margin: 2%;
+    
+}
+.main-page a:hover{
+    color: black;
+    font-weight: bold;
+    border: 5px #000086 solid;
+    transition: all 0.2s;
+}
+.errmsg {
+    width: 20%; 
+    margin: 0px auto; 
+    padding: 5px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: center;
+  }
+
+.success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin: 0px auto; 
+    border-radius: 5px; 
+    padding: 5px;
+    width: 25%;
+    height: 20px;
+    text-align: center;
+    
+  }
+/*Share Adding page dividend radio button*/
+.category label{
+    display: flex;
+    align-items: center;
+    margin:2.5%  1%;
+    font-weight: bold;
+  }
+.category .dot{
+    height: 10px;
+    width: 10px;
+    background: #d9d9d9;
+    border-radius: 80%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+  }
+  #dot-1  {
+    margin: 1%;
+      padding: 1%;
+    }
+  #dot-2  {
+  margin: 1%;
+    padding: 1%;
+  }
+  
+  #dot-1:checked ~ .category label .one,
+  #dot-2:checked ~ .category label .two{
+     border-color: #d9d9d9;
+     background: #458bcc;
+     
+  }
+  form input[type="radio"]{
+    display: none;
+  }
+/*admin-page*/
+.admin-header{
+    width: 99.6%;
+    margin: 0 0.2%;
+    padding: 0 0 1% 0;
+    border-radius: 0 0 50px 50px;
+    background: #c8e5ff;
+    text-align: center;
+}
+.admin-home-content{
+    width: 19.6%;
+    margin: 0 0 0 0.2%;
+    background: #c8e5ff;
+    padding:0.5% 0 1% 80%;
+}
+.admin-result{
+    margin: 0 0 0 35%;
+    width: 25%; 
+    padding: 5px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px;  
+}
+#home-submit{
+    margin: 0.5% 0 0.5% 20%;
+    padding: 0.5% 2%;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    border-radius: 10px;
+}
+#home-submit:hover{
+    color: rgb(35, 204, 255);
+    
+}
+.user-details{
+    margin-bottom: 1%;
+}
+.container{
+    background-color:#c8e5ff;
+    width: 70%;
+    border: 20px black;
+    border-radius: 10px;
+    margin-left: 15%;
+    padding: 1% 0;
+}
+#select{
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 0.5%;
+}
+#mdate{
+    margin-left: 20%;
+}
+.home-form{
+    margin-left: 30%;
+}
+.input-group {
+    margin: 10px 0px 10px 0px;
+  }
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 2px;
+    font-weight: bold;
+  }
+.input-group input {
+    height: 20px;
+    width: 25%;
+    padding: 5px 10px;
+    font-size: 11pt;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family: 'Trebuchet MS';
+    background-color: #F8F8FF;
+    transition: all 0.5s ease;
+    
+  }
+.head-links{
+     margin: 2.5% 0 1% 0%;
+     
+     text-align: center;
+  }
+.head-links a{
+    text-decoration: none;
+    padding: 1%;
+    font-weight: bold;
+    background-color: #f2dede;
+    border-radius: 50px;
+}
+.head-links a:hover{
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
+/*edit page*/
+.share-details{
+    margin: 2.5% 0 0 25%;
+}
+.output{
+    border-radius: 5px;
+}
+#industry-select{
+    width: 160px;
+    height: 25px;
+    margin-top: 1%;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+#cname-select{
+    height: 25px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    border-radius: 5px;
+}
+#eps-select{
+    width: 80px;
+    height: 25px;
+    margin-top: 1%;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+#submit{
+    margin: 0 0 0 35%;
+    height: 35px;
+    font-size: 13pt;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    border-radius: 10px;
+}
+#submit:hover{
+    color: cornflowerblue;
+}
+#delete{
+    margin: 0 0 0 1%;
+    padding: 0 2%;
+    height: 35px;
+    font-size: 13pt;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #d8201d;
+    color:rgb(255, 175, 175); 
+}
+#delete:hover{
+    color: rgb(41, 23, 23);
+}
+#edit-table{
+    margin: 3% 0 0 40%;
+}
+#edit-content{
+    margin: 0 0 0 40%;
+}
+#table{
+    margin: 2.5% 0 0 37.5%;
+    padding: 0 0 0 2.5%;
+}
+.edit input{
+    font-family: 'Trebuchet MS';
+}
+.input-edit{
+    border-radius: 5px;
+    padding: 1.5%;
+    font-weight: bold;
+}
+#new_cname{
+    width: 150%;
+}
+#edit_select{
+    width: 425px;
+    height: 25px;
+    margin-top: 1%;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    border-radius: 5px;
+}
+.wrapper{
+    justify-content: space-around;
+}
+form input[type="checkbox"]{
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: #dcecfa;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1.5%;
+    margin-left: 3.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  form input[type="checkbox"]::after{
+      font-family: "Font Awesome 5 Free";
+    font-weight: 650;
+    font-size: 20px;
+    color: rgb(81, 87, 121);
+    content: "\f00c";
+    display: none;
+  }
+  form input[type="checkbox"]:hover{
+    background-color: #93e9ff;
+}
+form input[type="checkbox"]:checked{
+    background-color: #93e9ff;
+}
+form input[type="checkbox"]:checked::after{
+    display: block;
+}
+#details{
+    width: 500px;
+}
+.input-fields input{
+    margin-left: 10px;
+    font-family: 'Trebuchet MS';
+    border-radius: 5px;
+}
+
+h2{
+    margin: 2.5% 0 1% 42.5%;
+}
+
+#submit{
+    margin-top: 2%;
+    margin-left: 2.25%;
+    width: 300px;
+}
+.attributes{
+    text-align: right;
+
+}
+.tags{
+    text-align: right;
+}
+

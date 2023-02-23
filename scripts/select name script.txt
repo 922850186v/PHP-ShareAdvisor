@@ -1,0 +1,8 @@
+<script>
+        function editselect()
+        {
+            var d=document.getElementById("edit_select");
+            var displaytext=d.options[d.selectedIndex].text;
+            document.getElementById("new_cname").value=displaytext;
+        }
+    </script>
